@@ -1,3 +1,6 @@
+Remember to add username, password and jwt.secret in "application.properties"
+
+
 Run local project with:
   mvn spring-boot:run
 
