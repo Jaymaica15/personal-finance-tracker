@@ -1,12 +1,26 @@
-Remember to add username, password and jwt.secret in "application.properties"
+# PersonalFinanceTracker
 
+This project was generated using [Spring-Boot] version 3.5.6.
 
-Run local project with:
-  mvn spring-boot:run
+## Development server
 
-If you want docker's containers , run:
-  mvn clean package
-  docker compose build
-  
-To activate containers, run:
-  docker compose up -d
+REMEMBER: add username, password and jwt.secret to "application.properties" before running the project.
+
+To start a local development server, run:
+
+```bash
+mvn spring-boot:run
+```
+## Docker
+
+To run with docker's containers
+
+```bash
+mvn clean package
+```
+```bash
+docker compose build
+```
+```bash
+docker compose up -d
+```
